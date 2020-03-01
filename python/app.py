@@ -5,7 +5,7 @@ app = Flask(__name__)
 def hello():
     return "A civilization that leaves so many of it's citizens unsatisfied and drives"
     return "them to revolt, neither has nor deserves the prospect of a lasting existance."
-#    return "~Sigmund Freud"
+    return "~Sigmund Freud"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8000)
